@@ -5,6 +5,9 @@ Architecture:
 - Deep seek style MoE (Auxillary loss free routing: https://arxiv.org/abs/2408.15664)
 - Zero Centered RMS Norm /w Weight Decay (Concept from Qwen3-Next: https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct)
 
+Auxillary stuff:
+- Cut cross entropy training (https://arxiv.org/abs/2411.09009)
+
 Using uv:
 ```
 uv sync
@@ -19,3 +22,4 @@ Infer (hard coded to use checkpoint 10):
 ```
 uv run python basic_inf.py
 ```
+
