@@ -9,6 +9,7 @@ Architecture:
 Auxillary stuff:
 - Cut cross entropy training (https://arxiv.org/abs/2411.09009)
 
+### Do the thing
 Using uv:
 ```
 uv sync
@@ -23,6 +24,7 @@ Infer (hard coded to use checkpoint 10):
 ```
 uv run python basic_inf.py
 ```
+
 
 
 
