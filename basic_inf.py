@@ -39,7 +39,7 @@ class MoEInference:
         return self.tokenizer.decode(input_ids[0], skip_special_tokens=True)
 
 def main():
-    inference = MoEInference(model_path="/home/grail/Desktop/architectures/Architecture-Qwen3-Next-Like-Transformer/checkpoints/checkpoint_epoch_4.safetensors")
+    inference = MoEInference(model_path="./checkpoints/checkpoint_epoch_4.safetensors")
     result = inference.generate("Hello")
     print(result)
 
